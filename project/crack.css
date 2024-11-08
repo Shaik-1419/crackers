@@ -1,0 +1,82 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #ffeb99;
+    padding: 20px;
+    text-shadow: 1px 1px 2px #666;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #ffcc66;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.cracker-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cracker {
+    width: 200px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.cracker img {
+    width: 100%;
+    height: auto;
+}
+
+.cracker h3 {
+    padding: 10px;
+    background-color: #ffeb99;
+}
+
+.cracker:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #ffcc66;
+    padding: 20px;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
